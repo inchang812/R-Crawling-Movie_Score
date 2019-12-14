@@ -216,16 +216,3 @@ bar + theme(plot.title = element_text(face = 'bold', size = 20, hjust = 0.5)) + 
   geom_point(aes(x=Title,y=Score),colour="black", position = position_dodge(width=0.9)) + #점 추가
   geom_hline(yintercept=mean(rfinal$Score), linetype='dashed') #평점평균 점선으로 추가 
 ###########################################################################################################################
-
-
-
-
-
-
-
-
-
-
-
-
-
