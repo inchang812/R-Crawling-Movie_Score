@@ -66,7 +66,7 @@ Sys.sleep(3)
 remDr$navigate(c_url) #cgv 홈페이지 접속
 Sys.sleep(2)
 btn1 <- remDr$findElement(using="xpath", value='//*[@id="contents"]/div[1]/div[3]/button')
-btn1$clickElement() #예메율순 버튼클릭
+btn1$clickElement() #더보기 버튼클릭
 Sys.sleep(2)
 c_title <- c()
 c_title <- remDr$findElements(using = "css", '.title')
